@@ -1,18 +1,51 @@
-## Getting Started
+# Hospital Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple Hospital Management System built in Java, designed to manage appointments for patients and doctors. It provides functionality for adding, viewing, updating, and canceling appointments using a menu-driven interface.
 
-## Folder Structure
+## Features
+- **Add New Appointment**: Schedule new appointments by specifying patient and doctor details.
+- **View All Appointments**: List all scheduled appointments.
+- **View Appointment by ID**: Retrieve details of a specific appointment using its ID.
+- **Search by Patient ID**: Find all appointments for a particular patient.
+- **Search by Doctor ID**: Find all appointments for a particular doctor.
+- **Update Appointment**: Modify details of an existing appointment.
+- **Cancel Appointment**: Remove an appointment from the system.
 
-The workspace contains two folders by default, where:
+## Prerequisites
+- **Java 8+**: Make sure Java is installed and added to your system's PATH.
+- **MySQL**: Set up a MySQL server to host the hospital database.
+- **MySQL Connector/J**: Ensure `mysql-connector-j.jar` is added to your classpath.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Setup
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/HospitalManagementSystem.git
+   cd 'Hospital Management System'
+   ```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+2. **Set Up Database**
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    ```bash
+    Execute the SQL scripts in the /sql folder:
+    CreateSchema.sql to create tables.
+    InsertData.sql to insert sample data.
+    ```
 
-## Dependency Management
+3. **Configure Database Connection**
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    ```bash
+    hostname = localhost
+    port = 3306
+    dbname = hospital_db
+    username = your_username
+    password = your_password
+    ```
+
+4. Compile and Run the Project
+
+    ```bash
+    javac -cp .;mysql-connector-j.jar src/main/MainModule.java
+    java -cp .;mysql-connector-j.jar src/main/MainModule
+    ```
+<hr>
+<hr>

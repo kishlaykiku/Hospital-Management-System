@@ -1,3 +1,4 @@
+-- Inserted Sample Data into 'Patient' Table
 INSERT INTO Patient (patientID, firstName, lastName, dateOfBirth, gender, contactNumber, address)
 VALUES
 (1, 'John', 'Doe', '1990-05-14', 'M', '1234567890', '123 Elm St'),
@@ -11,6 +12,7 @@ VALUES
 (9, 'David', 'Anderson', '1987-09-02', 'M', '9012345678', '369 Spruce St'),
 (10, 'Laura', 'Thomas', '1991-06-25', 'F', '0123456789', '123 Walnut St');
 
+-- Inserted Sample Data into 'Doctor' Table
 INSERT INTO Doctor (doctorID, firstName, lastName, specialization, contactNumber)
 VALUES
 (1, 'Dr. Alice', 'Carter', 'Cardiology', '1122334455'),
@@ -24,6 +26,7 @@ VALUES
 (9, 'Dr. Irene', 'Lee', 'Urology', '9900112233'),
 (10, 'Dr. Jack', 'Martin', 'General Surgery', '1011223344');
 
+-- Inserted Sample Data into 'Appointment' Table
 INSERT INTO Appointment (appointmentId, patientId, doctorId, appointmentDate, description)
 VALUES
 (1, 1, 2, '2024-10-21', 'Skin check-up'),

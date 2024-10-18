@@ -1,5 +1,10 @@
 package entity;
 
+/**
+ * Represents an appointment in the hospital system.
+ * Contains information such as appointment ID, patient ID, doctor ID,
+ * date of the appointment, and a description of the appointment.
+*/
 public class Appointment {
     private int appointmentId;
     private int patientId;
@@ -19,43 +24,44 @@ public class Appointment {
         this.description = description;
     }
 
-    // Getters and Setters
+    /******************************* Getters and Setters *******************************/
+
+    // Getter and Setter for appointmentId
     public int getAppointmentId() {
         return appointmentId;
     }
-
     public void setAppointmentId(int appointmentId) {
         this.appointmentId = appointmentId;
     }
 
+    // Getter and Setter for patientId
     public int getPatientId() {
         return patientId;
     }
-
     public void setPatientId(int patientId) {
         this.patientId = patientId;
     }
 
+    // Getter and Setter for doctorId
     public int getDoctorId() {
         return doctorId;
     }
-
     public void setDoctorId(int doctorId) {
         this.doctorId = doctorId;
     }
 
+    // Getter and Setter for appointmentDate
     public String getAppointmentDate() {
         return appointmentDate;
     }
-
     public void setAppointmentDate(String appointmentDate) {
         this.appointmentDate = appointmentDate;
     }
 
+    // Getter and Setter for description
     public String getDescription() {
         return description;
     }
-
     public void setDescription(String description) {
         this.description = description;
     }
