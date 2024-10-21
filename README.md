@@ -19,7 +19,7 @@ A simple Hospital Management System built in Java, designed to manage appointmen
 ## Setup
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/HospitalManagementSystem.git
+   git clone https://github.com/kishlaykiku/Hospital-Management-System.git
    cd 'Hospital Management System'
    ```
 
