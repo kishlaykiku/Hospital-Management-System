@@ -1,6 +1,6 @@
 # Hospital Management System
 
-A simple Hospital Management System built in Java, designed to manage appointments for patients and doctors. It provides functionality for adding, viewing, updating, and canceling appointments using a menu-driven interface.
+A simple Hospital Management System built in Java, designed to manage appointments for patients and doctors. It provides functionality for adding, viewing, updating, and cancelling appointments using a menu-driven interface.
 
 ## Features
 - **Add New Appointment**: Schedule new appointments by specifying patient and doctor details.
